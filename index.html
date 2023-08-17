@@ -195,19 +195,7 @@
 				})
 
 				window.editor = monaco.editor.create(document.getElementById('container'), {
-					value: `-- This is a comment
-local myVariable = "Hello, World!"
-
-function myFunction(parameter1, parameter2)
-	local result = parameter1 + parameter2
-	return result
-end
-
-if myVariable == "Hello, World!" then
-	print("The variable is equal to 'Hello, World!'")
-else
-	print("The variable is not equal to 'Hello, World!'")
-end`,
+					value: 'print(\'Hello World!\')',
 					language: 'lua',
 					theme: "Dark",
 					fontSize: "14px",
